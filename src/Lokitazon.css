@@ -1,0 +1,62 @@
+#lokitazonMain {
+    margin-top: 50px;
+    background: var(--rosa-blanco);
+    border: 1px solid var(--rosa);
+    border-radius: 10px;
+    padding: 10px;
+    height: 70%;
+    width: 100%;
+
+    overflow-y: scroll;
+}
+
+#lokitazonMain * {
+    font-family: Arial, Helvetica;
+    font-weight: bold;
+}
+
+#lokitazonMain .icon {
+    width: 10px;
+}
+
+.shopBtn {
+    display: flex;
+    align-items: center;
+    color: #5D9C59;
+}
+
+.shopBtn .carticon {
+    background-color: #5D9C59;
+    width: 100px;
+    padding: 3px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.shopBtn .carticon:active {
+    background-color: var(--rosa);
+}
+
+.shopBtn>* {
+    margin-left: 15px;
+    fill: white;
+    font-size: 1.5em;
+}
+
+.lokitazon-item {
+    display: flex;
+    padding: 10px;
+    border-bottom: 1px solid lightgray;
+}
+
+.lokitazon-item>div:nth-child(2) {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding-left: 20px;
+}
+
+.lokitazon-item p {
+    font-weight: 100 !important;
+    text-align: left;
+}

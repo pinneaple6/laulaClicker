@@ -1,0 +1,18 @@
+#subBar {
+    --height: 50px;
+    --width: 400px;
+
+    height: var(--height);
+    width: var(--width);
+    background-color: var(--rosa-blanco);
+    border: 1px solid var(--rosa);
+    border-radius: 10px;
+}
+
+#subsMain {
+    display: flex;
+    flex-direction: column;
+    width: 30vw;
+    align-items: center;
+    height: 100vh;
+}

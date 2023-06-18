@@ -1,0 +1,27 @@
+#end-main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    top: 30vh;
+    background: var(--rosa-blanco);
+    height: 200px;
+    width: 500px;
+
+    border: 3px solid var(--rosa);
+    border-radius: 20px;
+}
+
+.end-x {
+    cursor: pointer;
+    position: absolute;
+    top: 0;
+    right: 15px;
+    font-size: 1.5em;
+}
+
+#end-main>p {
+    text-align: center;
+    width: 300px;
+}

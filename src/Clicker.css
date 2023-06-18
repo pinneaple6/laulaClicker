@@ -1,0 +1,33 @@
+#clickerMain {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    justify-content: center;
+}
+
+#clickerBtn {
+    width: 250px;
+    border-radius: 50%;
+    border: 10px solid var(--rosa);
+    cursor: pointer;
+
+    transition: transform 0.1s;
+}
+
+#clickerBtn:active {
+    transform: scale(0.9);
+}
+
+* {
+    text-align: center;
+}
+
+h1 {
+    font-size: 3em;
+    text-align: center;
+    line-height: 1em;
+}
+
+h3 {
+    margin-top: -1em;
+}

@@ -1,0 +1,50 @@
+#itemList {
+    cursor: pointer;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+#itemList>div {
+    margin: 5px;
+    padding: 5px;
+    background: var(--rosa-blanco);
+    border: 2px solid var(--rosa);
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
+
+#itemList>div>* {
+    text-align: left;
+}
+
+#itemList>div>div:nth-child(1) {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 80%;
+}
+
+.stats {
+    color: var(--rosa);
+}
+
+.itemIcon {
+    width: 60px;
+}
+
+#itemList>div:active {
+    background-color: var(--rosa);
+}
+
+.infobox {
+    width: 30vw;
+    height: 100px;
+}
+
+#itemList {
+    height: 70vh;
+    overflow-y: scroll;
+}
